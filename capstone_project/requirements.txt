@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+statsforecast
+prophet
+lightgbm
+scikit-learn
+mlflow
+pyarrow
+joblib

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: yolo_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src  # Hot reloading
+    environment:
+      - MODEL_ENV=production
+    restart: always
+
+  # Optional: Monitoring (Module 6 Preview)
+  # prometheus:
+  #   image: prom/prometheus
+  #   ports:
+  #     - "9090:9090"
