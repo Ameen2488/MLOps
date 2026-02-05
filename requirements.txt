@@ -5,10 +5,12 @@ matplotlib>=3.7.2
 seaborn>=0.12.2
 scipy>=1.10.1
 jupyterlab>=4.0.3
+notebook
 ipykernel>=6.25.0
 tqdm>=4.65.0
 python-dotenv>=1.0.0
 requests>=2.31.0
+joblib
 
 # Module 2: Reproducibility
 dvc>=3.15.0
@@ -22,10 +24,12 @@ fastparquet>=2023.7.0
 pyspark>=3.4.1
 feast>=0.32.0
 prefect>=2.11.0
+gdown
 
 # Module 4: Model Development & Optimization
 torch>=2.0.1
 torchvision>=0.15.2
+tensorflow==2.12.0
 optuna>=3.2.0
 onnx>=1.14.0
 onnxruntime>=1.15.1
@@ -45,7 +49,16 @@ uvicorn[standard]>=0.23.1
 pydantic>=2.1.1
 locust>=2.15.1
 grpcio-tools>=1.56.0
+Flask
+Flask-Cors
 
 # Module 6: Monitoring
 evidently>=0.4.0
 prometheus-client>=0.17.1
+
+# Utilities
+python-box==6.0.2
+pyYAML
+types-PyYAML
+ensure==1.0.2
+-e .
