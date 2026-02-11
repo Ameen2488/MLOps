@@ -11,14 +11,14 @@ AUTHOR_EMAIL = "amnsid24@yahoo.com"
 setuptools.setup(
     name=f"{AUTHOR_USER_NAME}/{REPO_NAME}",
     version=__version__,
-    author=USER_NAME,
-    author_email="[EMAIL_ADDRESS]",
+    author=AUTHOR_USER_NAME,
+    author_email=AUTHOR_EMAIL,
     description="A small python package for cnn image classifier",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{USER_NAME}/{REPO_NAME}",
+    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
-        "Bug Tracker": f"https://github.com/{USER_NAME}/{REPO_NAME}/issues",
+        "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),

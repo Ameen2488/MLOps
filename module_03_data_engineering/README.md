@@ -193,7 +193,7 @@ By the end of this module, you will:
 ---
 
 ### **Lesson 6: Apache Spark Fundamentals**
-📓 [lesson_06_spark_basics.ipynb](./lesson_06_spark_basics.ipynb)
+📓 [lesson_06_spark_pyspark.ipynb](./lesson_06_spark_pyspark.ipynb)
 
 **Topics Covered**:
 - Why Spark for big data ML
@@ -227,7 +227,7 @@ By the end of this module, you will:
 ---
 
 ### **Lesson 7: Workflow Orchestration with Prefect**
-📓 [lesson_07_workflow_orchestration_prefect.ipynb](./lesson_07_workflow_orchestration_prefect.ipynb)
+📓 [lesson_07_end_to_end_pipeline.ipynb](./lesson_07_end_to_end_pipeline.ipynb)
 
 **Topics Covered**:
 - Workflow orchestration concepts
