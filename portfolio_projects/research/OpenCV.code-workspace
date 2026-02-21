@@ -5,7 +5,16 @@
 		},
 		{
 			"path": "../.."
+		},
+		{
+			"path": "../../../../Job Search"
+		},
+		{
+			"path": "../../../../Time_series_forecasting/Time_series_book"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+		"jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
+	}
 }
