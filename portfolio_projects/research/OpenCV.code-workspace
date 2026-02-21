@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "../../../../Time_series_forecasting/Time_series_book"
+		},
+		{
+			"path": "../../../../mlops_cc"
 		}
 	],
 	"settings": {
